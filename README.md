@@ -1,13 +1,3 @@
-# RWKV RLM Experiments
-
-This directory contains the useful code from the RWKV/RLM long-context experiments.
-It intentionally does not include RWKV model weights, virtual environments,
-CUDA extension caches, or full benchmark output dumps. The tokenizer, inference
-reference code, Rapid-Sampling sources, minimal state-tuning code, and the
-trained VT-closure state checkpoint are included.
-
-
-
 ## Representative result summary
 
 The final benchmark uses synthetic VT tasks where the long text is available as the REPL variable `doc_text`. The root model must write Python code to compute the answer.
